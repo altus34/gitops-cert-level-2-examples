@@ -12,7 +12,7 @@ spec:
           - env: qa
   template:
     metadata:
-      name: '{{env}}-simple-app'
+      name: '{{env}}'
     spec:
       project: default
       source:
